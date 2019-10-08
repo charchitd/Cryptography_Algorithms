@@ -1,6 +1,6 @@
 def split_len(seq, length):
     return [seq[i:i + length] for i in range(0, len(seq), length)]
-key = str(input("Enter the Key: "))
+key = str(input("Enter the Key of your choice: "))
 plaintext = str(input("Enter the Plaintext: "))
 def encode(key, plaintext):
 
